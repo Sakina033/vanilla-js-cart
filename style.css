@@ -1,0 +1,282 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFF1F4;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-container {
+    background-color: #FFF8FB;
+    width: 220px;
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px rgba(234, 174, 183, 0.2), 0 6px 6px rgba(234, 174, 183, 0.1);
+    border: 1px solid transparent;
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.title-container:hover {
+    box-shadow: rgb(250, 190, 225) 0px 0px 0px 2px, 0 10px 20px rgba(234, 174, 183, 0.2), 0 6px 6px rgba(234, 174, 183, 0.1) inset;
+}
+
+.cart-container {
+    background-color: #FFF8FB;
+    margin-top: 30px;
+    margin-right: 40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.cart-container:hover {
+    transform: translateY(-2px);
+    box-shadow: rgb(250, 190, 225) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+
+.cart svg{
+    width: 60px;
+    height: 60px;
+}
+
+.title{
+    color: #eaaeb7;
+    text-shadow: 0 0 2px #fce8eb;
+}
+
+
+.title span {
+    display: inline-block;
+    transition: transform 0.3s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+.title:hover span {
+    animation: jump 0.8s;
+    animation-fill-mode: both;
+}
+
+.title:hover span:nth-child(1) { animation-delay: 0s; }
+.title:hover span:nth-child(2) { animation-delay: 0.08s; }
+.title:hover span:nth-child(3) { animation-delay: 0.16s; }
+.title:hover span:nth-child(4) { animation-delay: 0.24s; }
+.title:hover span:nth-child(5) { animation-delay: 0.32s; }
+.title:hover span:nth-child(6) { animation-delay: 0.40s; }
+.title:hover span:nth-child(7) { animation-delay: 0.48s; }
+.title:hover span:nth-child(8) { animation-delay: 0.56s; }
+
+@keyframes jump {
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-20px); }
+    50%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}
+
+
+
+
+/* Main */
+
+.products-container {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product-card {
+    background-color: #FFF8FB;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(234, 174, 183, 0.15), 0 5px 10px rgba(234, 174, 183, 0.05);
+    border: 2px solid transparent;
+
+    padding: 7px;
+    margin: 20px 20px;
+    width: 410px;
+    height: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s;
+    position: relative;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    border-color: #ffe0ec;
+    box-shadow: 0 20px 40px rgba(234, 174, 183, 0.3);
+}
+
+
+
+.info-block{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.cart-image{
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.card-image-block{
+    margin-top: 25px;
+}
+.card-info-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title-block h3{
+    color: #EAAEB7;
+    text-shadow: 1px 0px 1.5px #fb88b4;
+}
+.product-price {
+  border: 2px solid #eaaeb7;
+  color: #e98190;
+  background: #fff0fa;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+
+
+.add {
+    background: transparent;
+    color: #eaaeb7;
+    font-weight: bold;
+    border: 2px solid #eaaeb7;
+    border-radius: 8px;
+    padding: 7px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    margin-top: 15px;
+    width: 150px;
+}
+.add:hover {
+    background: #eaaeb7;
+    color: #fff;
+}
+
+
+.title-block {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.product-desc{
+    width: 180px;
+    background: #ffe0ec;
+    color: #6d3b47;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(234, 174, 183, 0.25);
+    font-size: 0.95em;
+    font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+    padding: 20px 20px;
+    position: relative;
+}
+
+.product-desc::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: -28px;
+    transform: rotate(213deg);
+    width: 50px;
+    height: 50px;
+    background: url('./image/2457108-fb88b4.svg') no-repeat center/contain;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.product-desc::after {
+    content: "";
+    position: absolute;
+    right: -26px;
+    transform: rotate(28deg);
+    width: 50px;
+    height: 50px;
+    background: url('./image/2457108-fb88b4.svg') no-repeat center/contain;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.product-decor{
+    position: relative;
+}
+.product-decor::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -11px;
+    width: 100px;
+    height: 100px;
+    background: url('./image/47040-8bc34a.svg') no-repeat center/contain;
+    pointer-events: none;
+}
+.product-decor::after {
+    content: "";
+    position: absolute;
+    top: 163px;
+    left: 322px;
+    width: 100px;
+    height: 100px;
+    background: url('./image/47040-8bc34a(2).svg') no-repeat center/contain;
+    pointer-events: none;
+}
+
+
+.toast-message {
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    min-width: 220px;
+    max-width: 350px;
+    background: linear-gradient(120deg, #ffe0ec);
+    color: #f56e8f;
+    padding: 20px 36px;
+    border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(234, 174, 183, 0.4), 0 4px 10px rgba(128, 74, 74, 0.1);
+    font-size: 1.12em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    z-index: 10000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s, transform 0.4s;
+    transform: translateY(40px);
+    border: 2.5px solid #fb88b4;
+}
+
+.toast-message.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}

@@ -1,0 +1,86 @@
+[
+        {
+        "id": 1,
+        "title": "Dreamfan",
+        "price": 1800,
+        "image": "https://i.pinimg.com/736x/42/63/fd/4263fd0b8908b190f1ed9ec5defc88b5.jpg",
+        "description": "A whimsical fan that brings dreams to life with its enchanting design."
+    },
+    {
+        "id": 2,
+        "title": "Peach Mist",
+        "price": 2200,
+        "image": "https://i.pinimg.com/736x/ae/35/86/ae3586ed295a3ca13fcb5560836a7f7c.jpg",
+        "description": "A refreshing fan inspired by the soft hues of peach blossoms, perfect for warm days."
+    },
+    {
+        "id": 3,
+        "title": "Jade Swan",
+        "price": 1500,
+        "image": "https://i.pinimg.com/736x/b2/f3/38/b2f338948407cc22e7d44ac57f9b8031.jpg",
+        "description": "An elegant fan crafted from jade, symbolizing grace and tranquility."
+    },
+    {
+        "id": 4,
+        "title": "Silent Lotus",
+        "price": 2500,
+        "image": "https://i.pinimg.com/736x/c1/d7/95/c1d795ea95fd6020525e7deb3dbcc7bc.jpg",
+        "description": "A serene fan with lotus motifs, embodying peace and beauty in every detail."
+    },
+    {
+        "id": 5,
+        "title": "Blossom Tide",
+        "price": 2700,
+        "image": "https://i.pinimg.com/736x/c9/f6/7b/c9f67b4aa5595a40ee3b7a4f9b513791.jpg",
+        "description": "A vibrant fan that captures the essence of blooming flowers and ocean waves."
+    },
+    {
+        "id": 6,
+        "title": "Willow Dancer",
+        "price": 3000,
+        "image": "https://i.pinimg.com/736x/1f/11/d9/1f11d99b608bfe88f83b88922ed0dd8d.jpg",
+        "description": "A graceful fan that sways like willow branches in the breeze, adding elegance to any outfit."
+    },
+    {
+        "id": 7,
+        "title": "Crane Feather",
+        "price": 3500,
+        "image": "https://i.pinimg.com/736x/a7/fe/ea/a7feeabf994fc7bfe874a5e6c8b996df.jpg",
+        "description": "A fan inspired by the delicate feathers of a crane, symbolizing longevity and wisdom."
+    },
+    {
+        "id": 8,
+        "title": "Skyline Flow",
+        "price": 4000,
+        "image": "https://i.pinimg.com/736x/62/57/21/625721a6d68007a9684960eb3c1a9b4c.jpg",
+        "description": "A modern fan that captures the essence of city skylines, perfect for urban fashionistas."
+    },
+    {
+        "id": 9,
+        "title": "Echo Orchid",
+        "price": 4500,
+        "image": "https://i.pinimg.com/736x/db/57/48/db5748b84fc6add302d7bbcc84fa6791.jpg",
+        "description": "A luxurious fan adorned with orchid patterns, echoing elegance and sophistication."
+    },
+    {
+        "id": 10,
+        "title": "Starglaze",
+        "price": 5000,
+        "image": "https://i.pinimg.com/736x/c0/85/3d/c0853db54e97202e02a88730be0efb08.jpg",
+        "description": "A celestial fan that sparkles like the night sky, perfect for special occasions."
+    },
+        {
+        "id": 11,
+        "title": "Moonveil",
+        "price": 3200,
+        "image": "https://i.pinimg.com/736x/c6/d7/3a/c6d73a7f67ed41667daad570e88f6e67.jpg",
+        "description": "A delicate fan adorned with moonlit patterns, perfect for evening gatherings."
+    },
+    {
+        "id": 12,
+        "title": "Petal Whispers",
+        "price": 1999,
+        "image": "https://i.pinimg.com/736x/76/ad/5b/76ad5bea19616c51da66a215acb01f39.jpg",
+        "description": "A soft, floral fan that captures the essence of spring with every flutter."
+    }
+]

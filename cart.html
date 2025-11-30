@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина - MiluShop</title>
+    <link rel="icon" type="image/png" href="./image/pink-cosmos.png">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/cart-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="title-container">
+            <h1 class="title"><span>M</span><span>i</span><span>l</span><span>u</span><span>S</span><span>h</span><span>o</span><span>p</span></h1>
+        </div>
+
+        <div class="back-container-actions">
+            <button class="clear-cart-button">Очистить корзину</button>
+            <div class="back-container">
+                <a href="index.html" class="back-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                    <polyline points="12 19 5 12 12 5"></polyline>
+                </svg>
+                Назад
+                </a> 
+            </div>
+        </div>
+
+
+    </header>
+
+    <main class="cart-main-content">
+        <h2>Ваша Корзина</h2>
+
+        <div class="cart-items-container"></div>
+        
+        <div class="cart-summary">
+            <h3>Итого: <span id="cart-total-price">$0</span></h3>
+            <button class="checkout-button add">Оформить заказ</button>
+        </div>
+    </main>
+</body>
+<script type="module" src="/cart.js"></script>
+</html>
